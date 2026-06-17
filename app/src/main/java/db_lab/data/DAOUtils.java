@@ -13,8 +13,8 @@ public final class DAOUtils {
         try {
             var host = "localhost";
             var port = "3306";
-            var connectionString = "jdbc:mysql://" + host + ":" + port + "/" + database;
-            return DriverManager.getConnection(connectionString, username, password);
+            var connectionString = "jdbc:mysql://" + host + ":" + port + "/CareerZen";
+            return DriverManager.getConnection(connectionString, "root", "vinderei2005");
         } catch (Exception e) {
             throw new DAOException(e);
         }
