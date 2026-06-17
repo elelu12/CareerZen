@@ -6,3 +6,61 @@
 2026.06.17 19:57:13 INFO  no build target found for /Users/elenalungu/Desktop/BD/db-jdbc-main/app/src/main/java/db_lab/data/DAOUtils.java. Using fallback presentation compiler.
 2026.06.17 19:57:15 INFO  no build target found for /Users/elenalungu/Desktop/BD/db-jdbc-main/app/src/main/java/db_lab/data/DAOUtils.java. Using fallback presentation compiler.
 2026.06.17 19:58:26 WARN  no build target for: /Users/elenalungu/Desktop/BD/db-jdbc-main/app/src/main/java/db_lab/data/DAOUtils.java
+2026.06.17 20:00:06 WARN  no build target for: /Users/elenalungu/Desktop/BD/db-jdbc-main/app/src/main/java/db_lab/model/Azienda.java
+2026.06.17 20:00:06 INFO  no build target found for /Users/elenalungu/Desktop/BD/db-jdbc-main/app/src/main/java/db_lab/model/Azienda.java. Using fallback presentation compiler.
+2026.06.17 20:00:09 INFO  no build target found for /Users/elenalungu/Desktop/BD/db-jdbc-main/app/src/main/java/db_lab/model/Azienda.java. Using fallback presentation compiler.
+2026.06.17 20:00:09 WARN  no build target for: /Users/elenalungu/Desktop/BD/db-jdbc-main/app/src/main/java/db_lab/model/Candidato.java
+2026.06.17 20:00:09 INFO  no build target found for /Users/elenalungu/Desktop/BD/db-jdbc-main/app/src/main/java/db_lab/model/Candidato.java. Using fallback presentation compiler.
+2026.06.17 20:00:12 INFO  no build target found for /Users/elenalungu/Desktop/BD/db-jdbc-main/app/src/main/java/db_lab/model/Candidato.java. Using fallback presentation compiler.
+2026.06.17 20:00:12 WARN  no build target for: /Users/elenalungu/Desktop/BD/db-jdbc-main/app/src/main/java/db_lab/model/Candidatura.java
+2026.06.17 20:00:12 INFO  no build target found for /Users/elenalungu/Desktop/BD/db-jdbc-main/app/src/main/java/db_lab/model/Candidatura.java. Using fallback presentation compiler.
+2026.06.17 20:00:12 INFO  no build target found for /Users/elenalungu/Desktop/BD/db-jdbc-main/app/src/main/java/db_lab/model/Candidatura.java. Using fallback presentation compiler.
+2026.06.17 20:00:13 WARN  no build target for: /Users/elenalungu/Desktop/BD/db-jdbc-main/app/src/main/java/db_lab/model/PosizioneLavorativa.java
+2026.06.17 20:00:12 INFO  no build target found for /Users/elenalungu/Desktop/BD/db-jdbc-main/app/src/main/java/db_lab/model/PosizioneLavorativa.java. Using fallback presentation compiler.
+2026.06.17 20:11:05 INFO  no build target found for /Users/elenalungu/Desktop/BD/db-jdbc-main/app/src/main/java/db_lab/model/PosizioneLavorativa.java. Using fallback presentation compiler.
+2026.06.17 20:11:05 INFO  no build target found for /Users/elenalungu/Desktop/BD/db-jdbc-main/app/src/main/java/db_lab/model/PosizioneLavorativa.java. Using fallback presentation compiler.
+2026.06.17 20:11:06 WARN  no build target for: /Users/elenalungu/Desktop/BD/db-jdbc-main/app/src/main/java/db_lab/data/CareerZenDAO.java
+2026.06.17 20:11:05 INFO  no build target found for /Users/elenalungu/Desktop/BD/db-jdbc-main/app/src/main/java/db_lab/data/CareerZenDAO.java. Using fallback presentation compiler.
+2026.06.17 20:11:07 INFO  no build target found for /Users/elenalungu/Desktop/BD/db-jdbc-main/app/src/main/java/db_lab/data/CareerZenDAO.java. Using fallback presentation compiler.
+2026.06.17 20:11:07 INFO  no build target found for /Users/elenalungu/Desktop/BD/db-jdbc-main/app/src/main/java/db_lab/data/CareerZenDAO.java. Using fallback presentation compiler.
+2026.06.17 20:11:37 INFO  no build target found for /Users/elenalungu/Desktop/BD/db-jdbc-main/app/src/main/java/db_lab/data/CareerZenDAO.java. Using fallback presentation compiler.
+2026.06.17 20:11:46 INFO  no build target found for /Users/elenalungu/Desktop/BD/db-jdbc-main/app/src/main/java/db_lab/data/CareerZenDAO.java. Using fallback presentation compiler.
+2026.06.17 20:12:29 INFO  no build target found for /Users/elenalungu/Desktop/BD/db-jdbc-main/app/src/main/java/db_lab/data/CareerZenDAO.java. Using fallback presentation compiler.
+2026.06.17 20:13:02 INFO  no build target found for /Users/elenalungu/Desktop/BD/db-jdbc-main/app/src/main/java/db_lab/data/CareerZenDAO.java. Using fallback presentation compiler.
+2026.06.17 20:13:15 INFO  no build target found for /Users/elenalungu/Desktop/BD/db-jdbc-main/app/src/main/java/db_lab/data/CareerZenDAO.java. Using fallback presentation compiler.
+2026.06.17 20:13:16 WARN  no build target for: /Users/elenalungu/Desktop/BD/db-jdbc-main/app/src/main/java/db_lab/data/DAOUtils.java
+2026.06.17 20:13:15 INFO  no build target found for /Users/elenalungu/Desktop/BD/db-jdbc-main/app/src/main/java/db_lab/data/DAOUtils.java. Using fallback presentation compiler.
+Jun 17, 2026 8:13:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/Users/elenalungu/Desktop/BD/db-jdbc-main/app/src/main/java/db_lab/data/DAOException.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
