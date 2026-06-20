@@ -10,8 +10,9 @@
 
 2. CONFIGURAZIONE DATABASE
 ------------------------------------------------
-- Assicurarsi che MySQL Server sia in esecuzione sulla porta 3306.
-- Creare lo schema database denominato "CareerZen" ed eseguire lo script SQL fornito (se presente) per generare tabelle e dati di prova.
+- Assicurarsi che MySQL Server sia in esecuzione.
+- Aprire MySQL Workbench o un client simile.
+- Eseguire lo script SQL fornito `CareerZen_schema.sql` per creare automaticamente il database (che si chiamerà "CareerZen"), le tabelle e inserire i dati di prova (incluso l'Amministratore).
 - Credenziali di default del Database (cablate nel file `app/src/main/java/db_lab/data/DAOUtils.java`):
   - Utente: root
   - Password: vinderei2005
@@ -29,5 +30,13 @@ In alternativa, e' possibile importare l'intera cartella in un IDE (IntelliJ IDE
 
 4. CREDENZIALI APPLICATIVO E UTILIZZO
 ------------------------------------------------
-- Se il database non contiene dati, utilizzare il pulsante "Registrati" nella schermata iniziale per creare un nuovo account Candidato.
-- Per l'accesso come Amministratore, spuntare la casella "Accedi come Amministratore" e usare le credenziali inserite preventivamente nella tabella `Amministratore` del database.
+Grazie al dump importato avrete già dei dati pronti:
+
+ACCESSO AMMINISTRATORE:
+- Email: admin@careerzen.it (oppure Nome Utente: admin_elena)
+- Password: admin123
+- Spuntate sempre la casella "Accedi come Amministratore" prima di cliccare su Login.
+
+ACCESSO CANDIDATO:
+- Potete cliccare su "Registrati" per creare un nuovo account candidato di test.
+- Oppure, se avete popolato il DB dal file SQL, potete creare un nuovo account candidato a vostro piacimento.

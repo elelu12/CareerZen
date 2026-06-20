@@ -693,7 +693,7 @@ public final class App {
             );
 
             if (selectedOff == null || selectedOff.trim().isEmpty()) {
-                return; // User cancelled
+                return;
             }
 
             String[] decisioni = {"Accettata", "Rifiutata"};
@@ -708,7 +708,7 @@ public final class App {
             );
 
             if (decisione == null || decisione.trim().isEmpty()) {
-                return; // User cancelled
+                return;
             }
 
             try {
@@ -947,7 +947,7 @@ public final class App {
             String[] days = new String[31];
             for(int i=1; i<=31; i++) days[i-1] = String.format("%02d", i);
             String[] hours = new String[13];
-            for(int i=0; i<13; i++) hours[i] = String.format("%02d", i+8); // 08-20
+            for(int i=0; i<13; i++) hours[i] = String.format("%02d", i+8);
             String[] mins = {"00", "15", "30", "45"};
 
             JComboBox<String> yearCombo = new JComboBox<>(years);
@@ -1057,7 +1057,7 @@ public final class App {
 
             String[] esiti = {"Candidato eccellente, da assumere", "Buono, da valutare", "Non idoneo"};
             JComboBox<String> esitoCombo = new JComboBox<>(esiti);
-            esitoCombo.setEditable(true); // Allows custom text if they want
+            esitoCombo.setEditable(true);
             esitoCombo.setFont(textFont);
             dGbc.gridx = 1;
             dPanel.add(esitoCombo, dGbc);
