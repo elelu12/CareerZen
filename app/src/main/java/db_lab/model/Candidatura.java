@@ -9,11 +9,9 @@ public class Candidatura {
     private int idPosizione;
     private String statoAttuale;
 
-    // No-arguments constructor
     public Candidatura() {
     }
 
-    // All-arguments constructor
     public Candidatura(int idCandidatura, Date dataCreazione, int idCandidato, int idPosizione, String statoAttuale) {
         this.idCandidatura = idCandidatura;
         this.dataCreazione = dataCreazione;
@@ -22,7 +20,6 @@ public class Candidatura {
         this.statoAttuale = statoAttuale;
     }
 
-    // Getters and Setters
     public int getIdCandidatura() {
         return idCandidatura;
     }

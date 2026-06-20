@@ -10,11 +10,9 @@ public class PosizioneLavorativa {
     private Date dataScadenza;
     private int idAzienda;
 
-    // No-arguments constructor
     public PosizioneLavorativa() {
     }
 
-    // All-arguments constructor
     public PosizioneLavorativa(int idPosizione, String titolo, String modalita, String rangeRal, Date dataScadenza, int idAzienda) {
         this.idPosizione = idPosizione;
         this.titolo = titolo;
@@ -24,7 +22,6 @@ public class PosizioneLavorativa {
         this.idAzienda = idAzienda;
     }
 
-    // Getters and Setters
     public int getIdPosizione() {
         return idPosizione;
     }

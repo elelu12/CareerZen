@@ -6,11 +6,9 @@ public class Azienda {
     private String settore;
     private String sedePrincipale;
 
-    // No-arguments constructor
     public Azienda() {
     }
 
-    // All-arguments constructor
     public Azienda(int idAzienda, String nomeAzienda, String settore, String sedePrincipale) {
         this.idAzienda = idAzienda;
         this.nomeAzienda = nomeAzienda;
@@ -18,7 +16,6 @@ public class Azienda {
         this.sedePrincipale = sedePrincipale;
     }
 
-    // Getters and Setters
     public int getIdAzienda() {
         return idAzienda;
     }

@@ -1,18 +1,18 @@
 package db_lab.model;
 
-public class Candidato {
-    private int idCandidato;
+public class Amministratore {
+    private int idAmministratore;
     private String nomeUtente;
     private String password;
     private String nome;
     private String cognome;
     private String email;
 
-    public Candidato() {
+    public Amministratore() {
     }
 
-    public Candidato(int idCandidato, String nomeUtente, String password, String nome, String cognome, String email) {
-        this.idCandidato = idCandidato;
+    public Amministratore(int idAmministratore, String nomeUtente, String password, String nome, String cognome, String email) {
+        this.idAmministratore = idAmministratore;
         this.nomeUtente = nomeUtente;
         this.password = password;
         this.nome = nome;
@@ -20,12 +20,12 @@ public class Candidato {
         this.email = email;
     }
 
-    public int getIdCandidato() {
-        return idCandidato;
+    public int getIdAmministratore() {
+        return idAmministratore;
     }
 
-    public void setIdCandidato(int idCandidato) {
-        this.idCandidato = idCandidato;
+    public void setIdAmministratore(int idAmministratore) {
+        this.idAmministratore = idAmministratore;
     }
 
     public String getNomeUtente() {
